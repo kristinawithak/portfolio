@@ -621,7 +621,7 @@ section {
 ul.rig {
 	list-style: none;
 	font-size: 0px;
-	margin-left: -2.5%; /* should match li left margin */
+	margin-left: -6.5%; /* should match li left margin */
 }
 ul.rig li {
 	display: inline-block;
