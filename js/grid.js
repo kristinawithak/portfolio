@@ -361,11 +361,11 @@ var Grid = (function() {
 			this.$thumbnailSrcTwo   = $('<img class="thumb" rel="" src="">');
 			this.$thumbnailSrcThree = $('<img class="thumb" rel="" src="">');
 			// Anchor tag for thumbnail 1
-			this.$smallThumbContainerOne = $('<a class="SmallImage" href="#"></a>').append( this.$thumbnailSrcOne );
+			this.$smallThumbContainerOne = $( );
 			// Anchor tag for thumbnail 2
-			this.$smallThumbContainerTwo = $('<a class="SmallImage" href="#"></a>').append( this.$thumbnailSrcTwo );
+			this.$smallThumbContainerTwo = $( ).append( this.$thumbnailSrcTwo );
 			// Anchor tag for thumbnail 3
-			this.$smallThumbContainerThree = $('<a class="SmallImage" href="#"></a>').append( this.$thumbnailSrcThree );
+			this.$smallThumbContainerThree = $( ).append( this.$thumbnailSrcThree );
 			
 			// WRAP UP THE LARGE IMAGES AND THE THUMBNAILS
 			// A div to wrap the large image above
@@ -380,7 +380,7 @@ var Grid = (function() {
 			// create Preview structure:
 			this.$title        = $( '<h3></h3>' );
 			this.$description  = $( '<p></p>' );
-			this.$href         = $( '<a href="http://www.scriptedpixels.co.uk">Visit website</a>' );
+			this.$href         = $( '<a href="</a>' );
 			this.$details      = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
 			this.$loading      = $( '<div class="og-loading"></div>' );
 			this.$closePreview = $( '<span class="og-close"></span>' );
