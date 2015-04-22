@@ -601,14 +601,6 @@ section#sketchbook {
 	margin-left: auto;
 }
 
-section {
-	display: block;
-	margin: 0;
-	padding: 0;
-	font-size: 100%
-	font: inherit;
-	vertical-align: baseline;
-}
 
 #sketchbook ul {
 	list-style-type: none;
@@ -621,7 +613,7 @@ section {
 ul.rig {
 	list-style: none;
 	font-size: 0px;
-	margin-left: -6.5%; /* should match li left margin */
+	margin-left: -10.5%; /* should match li left margin */
 }
 ul.rig li {
 	display: inline-block;
@@ -672,7 +664,7 @@ ul.rig.columns-4 li {
 		display: block;
 	}
 	ul.rig {
-		margin-left: 0;
+		margin-left: 10.5;
 	}
 	ul.rig li {
 		width: 100% !important; /* over-ride all li styles */
