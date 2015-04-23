@@ -31,14 +31,6 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-.round {
-                border-radius: 50%;
-                overflow: hidden;
-                width: 305px;
-                height: 305px;
-            }
-
-
 
 #homebod {
 	height: 100%;
@@ -112,6 +104,39 @@ article {
 	display: table;
 	width: 100%;
 }
+
+/*------Navigation Bar-------*/
+
+#navmenu {
+    width: 760px;
+    height: 30px;
+    background-color: #;
+    border-top: 0; /* REMOVE TOP BORDER */
+    margin-left: -2px;
+}
+#navContainer {
+    width:100%
+    height: 30px; /* MATCH HEIGHT */
+    margin-top:-3x;
+    padding:0;
+    height:auto;
+    clear:left;
+}
+#navMenu li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+#navMenu ul li a{
+    text-align:center;
+    text-decoration:none;
+    height:30px;
+    width:150px;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*------NAVIGATION ENDS---------*/
 
 
 /* ------------------WORK -----------*/
@@ -618,7 +643,7 @@ ul.rig {
 ul.rig li {
 	display: inline-block;
 	padding: 10px;
-	margin: 0 0 2.5% 2.5%;
+	/*margin: 0 0 2.5% 2.5%;*/
 	background: #fff;
 	border: 1px solid #ddd;
 	font-size: 16px;
