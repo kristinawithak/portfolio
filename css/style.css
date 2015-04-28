@@ -24,13 +24,16 @@ article, aside, canvas, details, embed,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;	
-	padding: 0;figure
+	padding:0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+	font: 'Gotham';
 	vertical-align: baseline;
 }
 
+
+@font-face {
+	font-family: 'Gotham';
+}
 
 #homebod {
 	height: 100%;
@@ -56,7 +59,7 @@ article {
 .page-header__background {
 	position: relative;
 	z-index: 10;
-	height: 100%;
+	height: 200%;
 	width: 100%;
 }
 
@@ -131,6 +134,7 @@ article {
     display:block;
     margin-right: auto;
     margin-left: auto;
+    font-family: 'Gotham';
 }
 /*------NAVIGATION ENDS---------*/
 
@@ -185,21 +189,19 @@ a {
 
 h2 {
 	font-size: 1.7em;
-	font-family:;
-	text-transform: uppercase;
+	font-family: 'Gotham';
+	/*text-transform: uppercase;*/
 	text-align: center;
 	padding: 35px 0;
 	color: ; 
 	width: 100%;
-	font-weight: 500;
-	letter-spacing: 6px;
 }
 
 .image p {
 background: rgba(0,0,0,.8);
 padding: 14px 0;
 color:white;
-font-family:'Bentham';
+font-family:'Gotham';
 width:70%;
 bottom:0;
 position:absolute;
@@ -248,7 +250,7 @@ span {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: 'Gotham';
 	vertical-align: baseline;
 }
 
@@ -306,7 +308,7 @@ span {
 }
 .container__block
 .container__title{
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	text-align: center;
 	position: relative;
 	z-index: 50;
@@ -642,29 +644,29 @@ ul.rig li {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
-ul.rig li img {
+.rig li img {
 	max-width: 100%;
 	height: auto;
 	/*margin: 0 0 10px;*/
 }
-ul.rig li h3 {
+.rig li h3 {
 	margin: 0 0 5px;
 }
-ul.rig li p {
+.rig li p {
 	font-size: .9em;
 	line-height: 1.5em;
 	color: #999;
 }
 /* class for 2 columns */
-ul.rig.columns-2 li {
+.rig.columns-2 li {
 	width: 47.5%; /* this value + 2.5 should = 50% */
 }
 /* class for 3 columns */
-ul.rig.columns-3 li {
+.rig.columns-3 li {
 	width: 30.83%; /* this value + 2.5 should = 33% */
 }
 /* class for 4 columns */
-ul.rig.columns-4 li {
+.rig.columns-4 li {
 	width: 22.5%; /* this value + 2.5 should = 25% */
 }
  
