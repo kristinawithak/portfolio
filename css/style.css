@@ -107,11 +107,7 @@ article {
 
 /*------Navigation Bar-------*/
 
-#navmenu {
-    width: 760px;
-    background-color: #;
-    border-top: 0; /* REMOVE TOP BORDER */
-}
+
 #navContainer {
     width:100%;
     margin-top:-3x;
@@ -142,7 +138,7 @@ article {
 /* ------------------WORK -----------*/
 
 .container {
-	width: 100%
+	width: 100%;
 	position: relative;
 	padding-bottom: 5%;
 	z-index: 300;
@@ -160,7 +156,7 @@ section {
 	display: block;
 	margin: 0;
 	padding: 0;
-	font-size: 100%
+	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -187,7 +183,7 @@ a {
 	text-decoration: none;
 }
 
-p.toptext {
+h2 {
 	font-size: 1.7em;
 	font-family:;
 	text-transform: uppercase;
@@ -256,14 +252,6 @@ span {
 	vertical-align: baseline;
 }
 
-
-.inner-container {
-	width: 94%
-}
-
-.site-header .inner-container {
-	margin: 0 auto;
-}
 
 .site-branding {
 	width: 33.33%;
