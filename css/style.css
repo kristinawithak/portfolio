@@ -107,6 +107,16 @@ article {
 	width: 100%;
 }
 
+
+.kristina-bg-image {
+	background: url("../IMG_8976.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+	position: fixed;
+}
+
+
 /*------Navigation Bar-------*/
 
 
