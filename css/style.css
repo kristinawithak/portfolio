@@ -99,9 +99,8 @@ article {
 	padding-left: 0;
 }
 
-.text-block.valign .text-inner {
-	display: table-cell;
-	vertical-align: middle;
+.text-inner {
+	text-align: center;
 }
 .text-block.valign {
 	display: table;
